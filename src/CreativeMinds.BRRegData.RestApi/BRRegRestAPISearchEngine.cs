@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using CreativeMinds.BRRegData.RestApi.Dtos;
 using System.Net.Http.Json;
+using System.Web;
 
 namespace CreativeMinds.BRRegData.RestApi {
 
@@ -20,7 +21,7 @@ namespace CreativeMinds.BRRegData.RestApi {
 				  .Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
 			try {
-				HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, $"/enhetsregisteret/api/enheter?navn={query}" /*&fraRegistreringsdatoEnhetsregisteret=2017-10-20&tilRegistreringsdatoEnhetsregisteret=2017-10-20&konkurs=false"*/);
+				HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, $"/enhetsregisteret/api/enheter?navn={HttpUtility.UrlEncode(query)}" /*&fraRegistreringsdatoEnhetsregisteret=2017-10-20&tilRegistreringsdatoEnhetsregisteret=2017-10-20&konkurs=false"*/);
 				//request.Headers.Add("apikey", this.apiKey);
 				//request.Headers.Authorization = new AuthenticationHeaderValue("Basic", base64EncodedAuthenticationString);
 				//request.Content = new StringContent(searchBody, Encoding.UTF8, "application/json");
