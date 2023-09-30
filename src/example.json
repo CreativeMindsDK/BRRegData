@@ -1,0 +1,61 @@
+{
+  "_embedded": {
+    "enheter": [
+      {
+        "organisasjonsnummer": "912365271",
+        "navn": "SKOLEVISJONER AS",
+        "organisasjonsform": {
+          "kode": "AS",
+          "beskrivelse": "Aksjeselskap",
+          "_links": { "self": { "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS" } }
+        },
+        "postadresse": {
+          "land": "Norge",
+          "landkode": "NO",
+          "postnummer": "1556",
+          "poststed": "SON",
+          "adresse": [ "c/o Byraået i Son AS", "Postboks 144" ],
+          "kommune": "VESTBY",
+          "kommunenummer": "3019"
+        },
+        "registreringsdatoEnhetsregisteret": "2013-10-10",
+        "registrertIMvaregisteret": true,
+        "naeringskode1": {
+          "kode": "62.020",
+          "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi"
+        },
+        "antallAnsatte": 0,
+        "forretningsadresse": {
+          "land": "Norge",
+          "landkode": "NO",
+          "postnummer": "1555",
+          "poststed": "SON",
+          "adresse": [ "Brevikbråteveien 9" ],
+          "kommune": "VESTBY",
+          "kommunenummer": "3019"
+        },
+        "stiftelsesdato": "2013-08-15",
+        "institusjonellSektorkode": {
+          "kode": "2100",
+          "beskrivelse": "Private aksjeselskaper mv."
+        },
+        "registrertIForetaksregisteret": true,
+        "registrertIStiftelsesregisteret": false,
+        "registrertIFrivillighetsregisteret": false,
+        "sisteInnsendteAarsregnskap": "2022",
+        "konkurs": false,
+        "underAvvikling": false,
+        "underTvangsavviklingEllerTvangsopplosning": false,
+        "maalform": "Bokmål",
+        "_links": { "self": { "href": "https://data.brreg.no/enhetsregisteret/api/enheter/912365271" } }
+      }
+    ]
+  },
+  "_links": { "self": { "href": "https://data.brreg.no/enhetsregisteret/api/enheter?navn=skolevisjoner" } },
+  "page": {
+    "size": 20,
+    "totalElements": 1,
+    "totalPages": 1,
+    "number": 0
+  }
+}
