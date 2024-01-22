@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{67ABD896-96DD-4A49-8F69-0D4F6572BCE4}"
 	ProjectSection(SolutionItems) = preProject
 		..\appveyor.yml = ..\appveyor.yml
+		..\.github\workflows\Publish NuGet.yml = ..\.github\workflows\Publish NuGet.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{B48295FC-2731-45F6-9FE9-4DF464CEEFB1}"
