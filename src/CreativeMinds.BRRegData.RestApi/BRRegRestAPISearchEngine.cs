@@ -10,7 +10,7 @@ using System.Web;
 namespace CreativeMinds.BRRegData.RestApi {
 
 	public class BRRegRestApiSearchEngine : IBRRegSearchEngine {
-
+		private readonly IHttpClientFactory httpClientFactory;
 
 		public async Task<SearchResponse> SearchForCompanyByNameAsync(String query, Int32 maxHits, CancellationToken cancellationToken) {
 			HttpClient client = new HttpClient();
