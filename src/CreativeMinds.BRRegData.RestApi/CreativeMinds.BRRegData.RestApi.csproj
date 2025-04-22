@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<TargetFramework>net9.0</TargetFramework>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.1.0.0</Version>
+		<Version>1.2.0.0</Version>
 		<Authors>Steen F. Tøttrup</Authors>
 		<Company>CreativeMinds Aps</Company>
 		<Description>Searching the public Norwegian company database</Description>
